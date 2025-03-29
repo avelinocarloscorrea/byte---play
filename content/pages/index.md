@@ -1,19 +1,20 @@
 ---
-title: Home
+title: Início
 slug: /
 sections:
   - type: GenericSection
     title:
-      text: Unblock your team boost your time to production
+      text: Impulsione sua empresa com soluções web personalizadas
       color: text-dark
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Transformamos ideias em realidade digital
     text: >
-      A Netlify Create website is a git repo that you own. Every code commit is
-      instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+      Na Byte & Play, oferecemos serviços completos de criação e desenvolvimento
+      de sites para empresas em Caxias do Sul. Nosso objetivo é ajudar sua
+      empresa a se destacar no mercado digital com soluções modernas e
+      eficientes.
     actions:
-      - label: Get started
+      - label: Comece agora
         altText: ''
         url: /
         showIcon: false
@@ -22,7 +23,7 @@ sections:
         style: secondary
         elementId: ''
         type: Button
-      - label: See Tutorials
+      - label: Veja nossos serviços
         altText: ''
         url: /
         showIcon: true
@@ -33,11 +34,11 @@ sections:
         type: Link
     media:
       url: /images/main-hero.svg
-      altText: Unblock your team boost your time to production preview
+      altText: Impulsione sua empresa com soluções web personalizadas
       elementId: ''
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: Byte & Play
       color: text-primary
       type: Badge
     elementId: ''
@@ -53,21 +54,20 @@ sections:
           - pr-16
   - type: FeaturedItemsSection
     title:
-      text: Key Benefits
+      text: Nossos Serviços
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Soluções sob medida para sua empresa
     items:
       - type: FeaturedItem
-        title: 500k
-        subtitle: Numbers Done
+        title: Criação de Sites
+        subtitle: Sites modernos e responsivos
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Desenvolvemos sites personalizados que atendem às necessidades da sua
+          empresa, garantindo uma experiência única para seus clientes.
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
@@ -84,21 +84,20 @@ sections:
             textAlign: left
         image:
           type: ImageBlock
-          altText: Lightning bolt symbol on red background
+          altText: Criação de sites modernos
           elementId: ''
           url: /images/icon1.svg
           styles:
             self:
               borderRadius: x-large
-      - title: 20x
-        subtitle: The Job Stuff
+      - title: Desenvolvimento Web
+        subtitle: Soluções completas para sua empresa
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Oferecemos desenvolvimento de sistemas web que otimizam processos e
+          aumentam a eficiência do seu negócio.
         image:
           url: /images/icon2.svg
-          altText: Featured icon two
+          altText: Desenvolvimento web
           elementId: ''
           type: ImageBlock
         actions: []
@@ -115,15 +114,14 @@ sections:
             textAlign: left
             justifyContent: center
         type: FeaturedItem
-      - title: 200%
-        subtitle: Faster
+      - title: Consultoria Digital
+        subtitle: Estratégias para o sucesso online
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Ajudamos sua empresa a criar estratégias digitais eficazes para
+          alcançar seus objetivos e expandir sua presença online.
         image:
           url: /images/icon3.svg
-          altText: Featured icon three
+          altText: Consultoria digital
           elementId: ''
           type: ImageBlock
         actions: []
@@ -139,7 +137,7 @@ sections:
             flexDirection: row
         type: FeaturedItem
     actions:
-      - label: Get started
+      - label: Fale conosco
         altText: ''
         url: /
         showIcon: false
@@ -149,7 +147,7 @@ sections:
         elementId: ''
         type: Button
     badge:
-      label: This is a badge
+      label: Byte & Play
       color: text-primary
       styles:
         self:
@@ -168,7 +166,7 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-  - subtitle: Award winning enterprises trust us
+  - subtitle: Empresas de Caxias do Sul que confiam em nós
     images:
       - url: /images/empathy-logo.svg
         altText: Empathy logo
@@ -397,6 +395,8 @@ sections:
         padding:
           - pt-7
           - pl-7
+          - pb-7
+          - pr-7
           - pb-7
           - pr-7
     type: DividerSection

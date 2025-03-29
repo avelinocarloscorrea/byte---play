@@ -1,33 +1,32 @@
 ---
-title: Pricing
-slug: pricing
+title: Precios
+slug: precios
 sections:
   - title:
-      text: Flexible Pricing
+      text: Precios Flexibles
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: This is the subtitle for the pricing section
+    subtitle: Encuentra el plan perfecto para tu negocio
     plans:
-      - title: Developers
-        price: Free
-        details: No credit card required
+      - title: Básico
+        price: Gratis
+        details: Ideal para pequeñas empresas
         description: >-
-          Sed ut perspiciatis unde omnis, iste natus error sit voluptatem
-          accusantium doloremque.
+          Obtén un sitio web básico para tu negocio sin costo inicial. Perfecto
+          para empezar.
         features:
-          - Feature one
-          - Feature two
-          - Feature three
-          - Feature four
+          - Diseño responsivo
+          - Dominio personalizado
+          - Certificado SSL
         image:
-          url: /images/abstract-feature1.svg
-          altText: Pricing plan 1
+          url: /images/basic-plan.svg
+          altText: Plan Básico
           type: ImageBlock
         actions:
-          - label: Try for free
+          - label: Comienza gratis
             url: /
             icon: arrowRight
             iconPosition: right
@@ -43,23 +42,22 @@ sections:
               - pr-6
             borderRadius: large
         type: PricingPlan
-      - title: Professional
+      - title: Profesional
         price: $99
-        details: per month
+        details: por mes
         description: >-
-          Sed ut perspiciatis unde omnis, iste natus error sit voluptatem
-          accusantium doloremque.
+          Diseñado para empresas que buscan un sitio web profesional con
+          características avanzadas.
         features:
-          - Feature one
-          - Feature two
-          - Feature three
-          - Feature four
+          - Todo en el plan Básico
+          - Integración con redes sociales
+          - Soporte prioritario
         image:
-          url: /images/abstract-feature2.svg
-          altText: Pricing plan 2
+          url: /images/professional-plan.svg
+          altText: Plan Profesional
           type: ImageBlock
         actions:
-          - label: Try for free
+          - label: Prueba gratis
             url: /
             icon: arrowRight
             iconPosition: right
@@ -75,24 +73,22 @@ sections:
               - pr-6
             borderRadius: large
         type: PricingPlan
-      - title: Enterprise
-        price: Custom
-        details: per month
+      - title: Empresarial
+        price: Personalizado
+        details: por mes
         description: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam.
+          Soluciones personalizadas para grandes empresas con necesidades
+          específicas.
         features:
-          - Feature one
-          - Feature two
-          - Feature three
-          - Feature four
-          - Feature five
+          - Todo en el plan Profesional
+          - Consultoría personalizada
+          - Integraciones avanzadas
         image:
-          url: /images/abstract-feature3.svg
-          altText: Pricing plan 3
+          url: /images/enterprise-plan.svg
+          altText: Plan Empresarial
           type: ImageBlock
         actions:
-          - label: Contact us
+          - label: Contáctanos
             url: /
             icon: arrowRight
             iconPosition: right
@@ -116,8 +112,8 @@ sections:
         textAlign: center
     type: PricingSection
 seo:
-  metaTitle: Pricing - Demo site
-  metaDescription: This is the pricing page built with Netlify Create.
+  metaTitle: Precios - Byte & Play
+  metaDescription: Descubre los planes de precios de Byte & Play para tu negocio.
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout

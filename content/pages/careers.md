@@ -1,23 +1,22 @@
 ---
-title: Careers
-slug: careers
+title: Carreras
+slug: carreras
 sections:
   - title:
-      text: A team that works closely together
+      text: Un equipo que trabaja unido para innovar
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Section subtitle
+    subtitle: Únete a nuestro equipo y transforma el futuro digital
     text: >
-      There are many variations of passages of Lorem Ipsum available, but the
-      majority have suffered alteration in some form, by injected humour, or
-      randomised words which don't look even slightly believable. If you are
-      going to use a passage of Lorem Ipsum, you need to be sure there isn't
-      anything embarrassing hidden in the middle of text.
+      En Byte & Play, creemos en la colaboración y el crecimiento continuo. Nos
+      esforzamos por crear un ambiente donde cada miembro del equipo pueda
+      desarrollar su máximo potencial mientras trabajamos juntos para ofrecer
+      soluciones digitales innovadoras.
     actions:
-      - label: See open positions
+      - label: Ver posiciones abiertas
         url: /
         icon: arrowRight
         iconPosition: right
@@ -41,14 +40,14 @@ sections:
     type: GenericSection
     backgroundImage:
       type: BackgroundImage
-      altText: altText of the image
+      altText: Equipo colaborando
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
       url: /images/abstract-background.svg
   - title:
-      text: Meet the team
+      text: Conoce al equipo
       color: text-dark
       styles:
         self:
@@ -75,20 +74,19 @@ sections:
         textAlign: center
     type: FeaturedPeopleSection
   - title:
-      text: Open positions
+      text: Posiciones abiertas
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Encuentra tu próxima oportunidad
     items:
-      - title: Account Executive
-        subtitle: Sales
+      - title: Ejecutivo de Cuentas
+        subtitle: Ventas
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Forma parte de nuestro equipo de ventas y ayuda a conectar a nuestros
+          clientes con soluciones digitales personalizadas.
         colors: bg-neutral-fg-dark
         styles:
           self:
@@ -102,12 +100,11 @@ sections:
             flexDirection: row
             justifyContent: center
         type: FeaturedItem
-      - title: Open Source Engineer
-        subtitle: Marketing
+      - title: Ingeniero de Software Open Source
+        subtitle: Desarrollo
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Contribuye al desarrollo de proyectos innovadores y de código abierto
+          que impactan a empresas en todo el mundo.
         colors: bg-neutral-fg-dark
         styles:
           self:
@@ -121,12 +118,11 @@ sections:
             flexDirection: row
             justifyContent: center
         type: FeaturedItem
-      - title: Senior Software Engineer
-        subtitle: Engineering
+      - title: Ingeniero Senior de Software
+        subtitle: Ingeniería
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Lidera proyectos complejos y colabora con un equipo talentoso para
+          crear soluciones digitales de alto impacto.
         colors: bg-neutral-fg-dark
         styles:
           self:
@@ -139,7 +135,7 @@ sections:
             flexDirection: row
         type: FeaturedItem
     actions:
-      - label: Apply now
+      - label: Postúlate ahora
         url: /
         icon: arrowRight
         iconPosition: right
@@ -159,8 +155,8 @@ sections:
         textAlign: center
     type: FeaturedItemsSection
 seo:
-  metaTitle: Careers - Demo site
-  metaDescription: This is the careers page built with Netlify Create.
+  metaTitle: Carreras - Byte & Play
+  metaDescription: Únete al equipo de Byte & Play y transforma el futuro digital.
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout

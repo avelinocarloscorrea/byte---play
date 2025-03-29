@@ -51,7 +51,7 @@ sections:
           - pt-16
           - pl-16
           - pb-16
-          - pr-16
+          - pr-1
   - type: FeaturedItemsSection
     title:
       text: Nossos Serviços
